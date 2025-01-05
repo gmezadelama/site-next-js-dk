@@ -7,9 +7,9 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        ranga: ["var(--font-ranga-bold)"],
+        roboto: ["var(--font-roboto-condensed)"],
       },
     },
   },
